@@ -1,0 +1,140 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: black;
+}
+nav
+{
+    background-color:#296477;
+    height: 100px;
+}
+nav img
+{
+    width: 100px;
+    height: 90px;
+    border-radius: 80px;
+    padding-top: 5px;
+}
+nav ul
+{
+    display: flex;
+    list-style: none;
+    margin-left: 7%;
+    margin-top: -55px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    margin-left:30px;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+nav ul li a:hover
+{
+    background-color: #DDCECE;
+    color:black;
+    border-radius: 20px;
+}
+header
+{
+    background-image: url("../0.jpg");
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+header h1
+{
+    text-align: center;
+    padding-top: 5%;
+    text-shadow: 1px 1px 3px #3E3F3F;
+    font-size: 60px;
+    margin-left: 40px;
+    color:white;
+    font-family:Brush Script MT;
+    padding-bottom: 30px;
+}
+header h1:hover
+{
+    color:black;
+}
+header button
+{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 45%;
+    background-color:#296477;
+    color:white;
+    
+}
+header button:hover
+{
+    background-color:black;
+}
+.hospital img,.famous img
+{
+    width: 340px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.hospital h2
+{
+    margin-top: 40px;
+    text-align: center;
+    color:white;
+    text-shadow: 3px 3px 2px #296477;
+}
+.Tamer h2,pre,.team h2,.famous h2
+{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color:white;
+    text-shadow: 3px 3px 2px #296477;
+}
+pre
+{
+    font-size: 20px;
+}
+.team img
+{
+    width: 340px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.img1,.img2,.img3,.img4
+{
+    float:left;
+    margin-bottom: 20px;
+}
+.famous h3
+{
+    margin-left: 28%;
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color:white;
+    text-shadow: 3px 3px 2px #296477;
+}
+.final
+{
+    margin-top: 30%;
+    background-color:#296477;
+    color:white;
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+    font-size: 25px;
+   
+}
